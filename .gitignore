@@ -1,0 +1,23 @@
+# Target build directory
+backend/target/
+*.class
+
+# Node modules & frontend build
+frontend/node_modules/
+frontend/dist/
+
+# Environment files containing secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+.mvn/
